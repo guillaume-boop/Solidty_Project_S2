@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Conteneur du widget en haut à droite */
+.dynamic-top-right {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  
+}
+
+/* Centrage du contenu principal (facultatif) */
+.main-content {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.dynamic-shadow-dom {
+  --dynamic-connect-button-background-hover: #6200ff;
+  --dynamic-connect-button-color-hover: white;
+  --dynamic-connect-button-border-radius: 12px;
+}

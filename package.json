@@ -1,0 +1,12 @@
+{
+  "name": "fractionestate",
+  "private": true,
+  "version": "1.0.0",
+  "description": "FractionEstate - Investissement immobilier fractionné",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
