@@ -10,19 +10,19 @@ smart-contract/ : contrats intelligents déployables sur la blockchain.
 📦 Installation et lancement
 1. Cloner le dépôt
 bash
-Copier
-Modifier
+
+
 git clone <url_du_repo>
 cd front/App
 2. Installer les dépendances
 bash
-Copier
-Modifier
+
+
 npm install
 3. Lancer l'application
 bash
-Copier
-Modifier
+
+
 npm run dev
 Accède à l'application via : http://localhost:5173
 
@@ -45,15 +45,15 @@ Récupère l'identifiant de ton environnement (API Key)
 Dans le dossier /front/App, crée un fichier .env :
 
 ini
-Copier
-Modifier
+
+
 VITE_DYNAMICS_API_KEY='ton-environnement-id'
 ⚠️ Assure-toi de ne pas commiter ce fichier .env dans le dépôt public.
 
 📁 Arborescence du projet
 bash
-Copier
-Modifier
+
+
 /front
   ├── LandingPage/
   └── App/
