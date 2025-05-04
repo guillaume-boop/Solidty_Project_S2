@@ -33,9 +33,6 @@ npm install
 3. Lancer l'application
 
 
-bash
-
-
 npm run dev
 
 
